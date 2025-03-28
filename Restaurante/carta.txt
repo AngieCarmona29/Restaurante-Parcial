@@ -1,0 +1,8 @@
+Ensalada César, 12000, Entrada
+Sopa de tomate, 10000, Entrada
+Frijoles, 25000, Plato fuerte
+Pasta Alfredo, 20000, Plato fuerte
+Salmón a la parrilla, 40000, Plato fuerte
+Flan, 8000, Postre
+Torta de chocolate, 7500, Postre
+Helado de vainilla, 4000, Postre
