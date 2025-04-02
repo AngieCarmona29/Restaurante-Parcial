@@ -1,4 +1,4 @@
-package com.restaurante.application;
+package com.restaurante.Application;
 import com.restaurante.domain.Producto;
 import java.util.Random;
 import com.restaurante.usecase.GestorPedidos;
