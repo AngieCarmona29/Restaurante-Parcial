@@ -1,21 +1,25 @@
 package com.restaurante.domain;
 
-// Representa un producto del menú
+// representa un producto del menu
 public class Producto {
-    private String nombre;
-    private double precio;
-    private String categoria;
+    private String nombre; // nombre del producto
+    private double precio; // precio del producto
+    private String categoria; // categoria a la que pertenece el producto
 
+    // constructor que inicializa un producto con su nombre, precio y categoria
     public Producto(String nombre, double precio, String categoria) {
         this.nombre = nombre;
         this.precio = precio;
         this.categoria = categoria;
     }
 
-    public String getNombre() { return nombre; }
+    // obtiene el precio del producto
     public double getPrecio() { return precio; }
+
+    // obtiene la categoria del producto
     public String getCategoria() { return categoria; }
 
+    // devuelve una representacion en texto del producto
     @Override
     public String toString() {
         return categoria + " - " + nombre + " - $" + precio;
