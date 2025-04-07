@@ -25,12 +25,10 @@ public class Main {
             System.out.print("  ¿Que opción deseas elegir hoy?");
 
             String respuestaMenu = scanner.nextLine(); // lee la opcion ingresada por el usuario
-
+            //Para manejar posibles errores con la respuesta que se ingrese
             try{
-                // Intentar convertir la entrada a un número entero
                 opcion = Integer.parseInt(respuestaMenu);
             } catch (NumberFormatException e){
-                // Si la conversión falla, mostrar un mensaje de error y continuar el bucle
                 System.out.println("Entrada no válida. Por favor, ingrese un número.");
                 continue;
             }
@@ -41,12 +39,10 @@ public class Main {
                     System.out.print("\nIngresa el numero de la mesa que estas atendiendo: ");
                     String respuestaMesa = scanner.nextLine(); // lee la respuesta ingresada
                     int mesa;
-
+                    
                     try{
-                        // Intentar convertir la entrada a un número entero
                         mesa = Integer.parseInt(respuestaMesa);
                     } catch (NumberFormatException e){
-                        // Si la conversión falla, mostrar un mensaje de error y continuar el bucle
                         System.out.println("Entrada no válida. Por favor vuelva a iniciar el pedido.");
                         continue;
                     }
